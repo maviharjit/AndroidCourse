@@ -1,0 +1,7 @@
+include ':Mavi Library'
+include ':Adopt a pet'
+include ':Abstract Classes And Interfaces'
+include ':Comedian Bot'
+include ':Pick a name'
+include ':Hello World'
+rootProject.name = "Learn Android Dev"
