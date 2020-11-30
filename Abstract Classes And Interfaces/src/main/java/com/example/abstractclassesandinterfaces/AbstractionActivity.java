@@ -18,6 +18,20 @@ public class AbstractionActivity extends Activity {
 
         myFan.breakDevice();
         myLight.breakDevice();
+
+        Switch mySwitch = new Switch();
+
+        mySwitch.wireUP(myFan);
+        mySwitch.wireUP(myLight);
+
+        mySwitch.flipSwitchUp();
+        mySwitch.flipSwitchDown();
+
+        //mySwitch.unWire(myFan);
+        mySwitch.wireDown(myFan);
+
+        mySwitch.flipSwitchUp();
+        mySwitch.flipSwitchDown();
     }
 
     @Override
