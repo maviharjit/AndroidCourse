@@ -1,7 +1,7 @@
 package com.example.abstractclassesandinterfaces;
 
 /* created by learnovate */
-public abstract class Device {
+public abstract class Device implements Switchable {
 
     protected String deviceName;
     protected boolean isOn;
