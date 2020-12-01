@@ -38,8 +38,7 @@ public class AbstractionActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
 
         // inflate the menu; this adds items to the action bar if it is present
-        //getMenuInflater().inflate(R.menu.abstraction,menu);
-        //getMenuInflater().inflate(R,menu);
+        getMenuInflater().inflate(R.menu.abstraction,menu);
         return true;
     }
 
@@ -48,10 +47,10 @@ public class AbstractionActivity extends Activity {
         // Handle action bar item click here. the action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml
-        int d = item.getItemId();
-        /* if (id == R.id.action_settings) {
+        int id = item.getItemId();
+        if (id == R.id.action_settings) {
             return true;
-        } */
+        }
         return super.onOptionsItemSelected(item);
     }
 
