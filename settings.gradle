@@ -1,3 +1,5 @@
+include ':Color Picker'
+include ':Design UI using XML'
 include ':Mavi Library'
 include ':Adopt a pet'
 include ':Abstract Classes And Interfaces'
