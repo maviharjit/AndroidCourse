@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Constraint Layout Example</string>
+    <string name="email_field">someone@something.com</string>
+    <string name="username_field">John Smith</string>
+    <string name="changePassword_field">Change Password</string>
+    <string name="logout_text">Logout</string>
+
+
+</resources>
