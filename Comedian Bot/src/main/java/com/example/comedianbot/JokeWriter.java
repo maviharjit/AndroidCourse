@@ -9,9 +9,9 @@ public class JokeWriter {
         Joke j;
         ArrayList<Joke> jokeList = new ArrayList<Joke>();
 
-        jokeList.add(new Joke("Why couldn't the bicycle stand up?",
+        jokeList.add(new Joke("Why couldnt the bicycle stand up?",
                 "Because it was two tired"));
-        jokeList.add(new Joke("What do you call a cheese the isn't yours?",
+        jokeList.add(new Joke("What do you call a cheese the isnt yours?",
                 "Nacho Cheese!"));
         jokeList.add(new Joke("Before I criticize a man, I like to talk a mile in his shoes",
                 "That way, I'm a mile away and has his shoes"));
